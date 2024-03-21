@@ -103,7 +103,7 @@ if (check == 'y') or (check == 'Y'):
     #formula to decrypt
     for i in cipherTextList:
         decrypted = pow(int(i), int(d), int(n))
-        messageTextList.append(char(decrypted))
+        messageTextList.append(chr(decrypted))
     print('Decoded list:', messageTextList)
 else:
     exit(0)
